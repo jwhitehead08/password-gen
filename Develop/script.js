@@ -37,7 +37,7 @@ var numericConfirm = window.confirm("Would you like to include numeric character
   else {
     var numeric = '';
   }
-//Window alert: ask user if special characters are desired
+//Window alert: ask user if special characters are desired. Y or N. 
 var specialCharConfirm = window.confirm("Would you like to include special characters (i.e. !@#%&)? Click 'OK' for yes or 'Cancel' for no.");
 
   if(specialCharConfirm == true) {
